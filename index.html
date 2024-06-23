@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />  
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="I'm Hari,and this is my personal portfolio website..">
     <meta name="keywords" content="Hari, HARI KRISHNA, hari ">
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
     <!--==================== UNICONS ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
@@ -27,7 +28,9 @@
 </head>
 
 <body>
-    
+    <a href="https://wa.me/8870938014" class="whatsapp-float" target="_blank">
+        <i class="uil uil-whatsapp whatsapp-float-icon"></i>
+    </a>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
@@ -93,22 +96,24 @@
                 <div class="home__content grid">
                     <div class="home__social">
 
-                        <a href="https://www.instagram.com/harikrishna_baskaran_/"
-                            target="_blank" class="home__social-icon">
+                        <a href="https://www.instagram.com/harikrishna_baskaran_/" target="_blank"
+                            class="home__social-icon">
                             <i class="uil uil-instagram"></i>
                         </a>
                         <a href="https://github.com/harikrishnabaskaran12" target="_blank" class="home__social-icon">
                             <i class="uil uil-github-alt"></i>
                         </a>
-                        <a href="//twitter.com/HariKri73981631?t=Z3LwoxkcTUXQ3tOLZNNitw&s=09" target="_blank" class="home__social-icon">
+                        <a href="//twitter.com/HariKri73981631?t=Z3LwoxkcTUXQ3tOLZNNitw&s=09" target="_blank"
+                            class="home__social-icon">
                             <i class="uil uil-twitter-alt"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/hari-krishna-1a9022211" target="_blank" class="home__social-icon">
+                        <a href="https://www.linkedin.com/in/hari-krishna-1a9022211" target="_blank"
+                            class="home__social-icon">
                             <i class="uil uil-linkedin-alt"></i></a>
                     </div>
 
                     <div data-aos="fade-right" class="home__img">
-                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                        <svg class="home__blob h" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink">
                             <mask id="mask0" mask-type="alpha">
                                 <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
@@ -122,7 +127,7 @@
                                 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                                 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
 
-                                <image class="home__blob-img" x="12" y="18" href="asset/img/hari fin img2.jpg" />
+                                <image class="home__blob-img hari" x="12" y="18" href="asset/img/hari fin img2.jpg" />
                             </g>
                         </svg>
                     </div>
@@ -130,10 +135,11 @@
                     <div class="home__data">
                         <h1 class="home_title">Hi!<span class="wave">👋</span>, I'm Hari Krishna</h1>
                         <h3 class="home__subtitle">
-                            and I'm an engineering Student.<span></span>
+                            <span style="color: #5779E0">Web and Android developer</span>
                         </h3>
                         <p class="home__description">
-                            I have Good Knowledge in Web Designing and development and to gain knowledge on upcoming technologies and to expertise in existing technologies.
+                            I have good knowledge of web development and Android development, and I want to gain
+                            knowledge of upcoming technologies and expertise in existing technologies.
                         </p>
                         <a href="#contact" class="button button--flex">
                             Contact Me <i class="uil uil-message button__icon"></i>
@@ -161,16 +167,17 @@
 
                 <div class="about__data">
                     <p class="about__description">
-I'm pursuing bachelor in computer science and engineering. 
-I like to learn coding and exploring different kinds of technologies.And I'm interested in working on projects like Web development and software development.
-                        <br>             
-                        Fresh computer science graduate with a strong foundation in
-                        programming languages ,database management and web
-                        developement. Detail-oriented and adept at problem solving,
-                        I thrive in collaborative environments . 
+                        I am a professional web and Android developer with extensive expertise in designing dynamic, user-friendly digital experiences.
+                        <br>
+                        I am skilled in Kotlin for Android development as well as HTML, CSS, JavaScript, ReactJS, Vue.js,
+                        and Next.js for Web development. With a great eye for detail and a passion for technology, I seek to provide
+                        solutions that are high-quality, efficient, and scalable. To keep up with the ever-changing tech
+                        scene, I'm continuously learning and adapting to new technologies. My goal is to create
+                        applications that are frictionless and engaging, resulting in outstanding user experiences. I'm
+                        looking forward to using my expertise and creativity to new and fascinating projects.
                     </p>
 
-                  
+
                 </div>
             </div>
         </section>
@@ -189,7 +196,7 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
 
                             <div>
                                 <h1 class="skills__title">Frontend </h1>
-                               
+
                             </div>
 
                             <i class="uil uil-angle-down skills__arrow"></i>
@@ -198,7 +205,7 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                         <div class="skills__list grid">
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name"><img src="/asset/img/html.png" class="skills__logo"
+                                    <h3 class="skills__name"><img src="asset/img/html.png" class="skills__logo"
                                             width="25px" alt=""> HTML</h3>
                                     <span class="skills__number">100%</span>
                                 </div>
@@ -208,9 +215,9 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                             </div>
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name"><img src="/asset/img/css.png" class="skills__logo"
+                                    <h3 class="skills__name"><img src="asset/img/css.png" class="skills__logo"
                                             width="20px" alt=""> CSS</h3>
-                                    <span class="skills__number">80%</span>
+                                    <span class="skills__number">100%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage skills__css"></span>
@@ -218,10 +225,10 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                             </div>
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name"><img src="/asset/img/javascript.png" class="skills__logo"
+                                    <h3 class="skills__name"><img src="asset/img/javascript.png" class="skills__logo"
                                             width="25px" alt=""> JavaScript</h3>
 
-                                    <span class="skills__number">70%</span>
+                                    <span class="skills__number">100%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage skills__js"></span>
@@ -229,168 +236,50 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                             </div>
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name"><img src="/asset/img/react1.png" class="skills__logo"
-                                            width="25px" alt="">Reactjs</h3>
+                                    <h3 class="skills__name"><img src="asset/img/react1.png" class="skills__logo"
+                                            width="25px" alt="">React js</h3>
 
-                                    <span class="skills__number">60%</span>
+                                    <span class="skills__number">100%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage skills__reactjs"></span>
                                 </div>
                             </div>
-                        </div>
-                    </div>
 
-              <!--================SKILL 2==========================-->    
-              <div class="skills__content skills__open">
-                <div class="skills__header">
-                    <i class="uil uil-pen skills__icon"></i>
-
-                    <div>
-                        <h1 class="skills__title">Backend </h1>
-                       
-                    </div>
-
-                    <i class="uil uil-angle-down skills__arrow"></i>
-                </div>
-
-                <div class="skills__list grid">
-                    <div class="skills__data">
-                        <div class="skills__titles">
-                            <h3 class="skills__name"><img src="/asset/img/python.jpg" class="skills__logo"
-                                    width="25px" alt="">Python</h3>
-                            <span class="skills__number">80%</span>
-                        </div>
-                        <div class="skills__bar">
-                            <span class="skills__percentage skills__python"></span>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-                
-            <!--==========SKILLS 3=============--->
-            <div class="skills__content skills__open">
-                <div class="skills__header">
-                    <i class="uil uil-database skills__icon"></i>
-
-                    <div>
-                        <h1 class="skills__title">Database </h1>
-                       
-                    </div>
-
-                    <i class="uil uil-angle-down skills__arrow"></i>
-                </div>
-
-                <div class="skills__list grid">
-                    <div class="skills__data">
-                        <div class="skills__titles">
-                            <h3 class="skills__name"><img src="/asset/img/my2.jpg" class="skills__logo"
-                                    width="25px" alt="">MYSQL</h3>
-                            <span class="skills__number">100%</span>
-                        </div>
-                        <div class="skills__bar">
-                            <span class="skills__percentage skills__mysql"></span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__titles">
-                            <h3 class="skills__name"><img src="/asset/img/sql2.png" class="skills__logo"
-                                    width="25px" alt="">SQL</h3>
-                            <span class="skills__number">70%</span>
-                        </div>
-                        <div class="skills__bar">
-                            <span class="skills__percentage skills__sql"></span>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-                <!--==================SKILL 4=================-->
-                <div class="skills__content skills__close">
-                    <div class="skills__header">
-                        <i class="uil uil-briefcase-alt skills__icon"></i>
-
-                        <div>
-                            <h1 class="skills__title">Devops</h1>
-                           
-                        </div>
-
-                        <i class="uil uil-angle-down skills__arrow"></i>
-                    </div>
-
-                    <div class="skills__list grid">
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name"><img src="/asset/img/ec2.jpg" class="skills__logo"
-                                        width="20px" alt="">AWS EC2</h3>
-                                <span class="skills__number">100%</span>
-
-                                
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__ec2"></span>
-                            </div>
-                        </div>
-                       
-                </div>
-
-                <div class="skills__list grid">
-                    <div class="skills__data">
-                        <div class="skills__titles">
-                            <h3 class="skills__name"><img src="/asset/img/rds.png" class="skills__logo"
-                                    width="20px" alt="">AWS RDS</h3>
-                            <span class="skills__number">80%</span>
-
-                            
-                        </div>
-                        <div class="skills__bar">
-                            <span class="skills__percentage skills__rds"></span>
-                        </div>
-                    </div>
-                   
-            </div>
-            </div>  
-
-                <div>
-                    <!--==================== SKILL 5 ====================-->
-                    <div class="skills__content skills__close">
-                        <div class="skills__header">
-                            <i class="uil uil-swatchbook skills__icon"></i>
-
-                            <div>
-                                <h1 class="skills__title">Designer</h1>
-                               
-                            </div>
-
-                            <i class="uil uil-angle-down skills__arrow"></i>
-                        </div>
-
-                        <div class="skills__list grid">
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name"><img src="/asset/img/figma.png" class="skills__logo"
-                                            width="20px" alt=""> Figma</h3>
-                                    <span class="skills__number">100%</span>
+                                    <h3 class="skills__name"><img src="asset/img/react1.png" class="skills__logo"
+                                            width="25px" alt="">Next js</h3>
 
-                                    
+                                    <span class="skills__number">90%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__blender"></span>
+                                    <span class="skills__percentage skills__nextjs"></span>
                                 </div>
                             </div>
-                           
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="asset/img/react1.png" class="skills__logo"
+                                            width="25px" alt="">Vue js</h3>
+
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__vuejs"></span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <!--==================== SKILL 6 ====================-->
+
+                    <!--================SKILL 2==========================-->
                     <div class="skills__content skills__open">
                         <div class="skills__header">
-                            <i class="uil uil-apps skills__icon"></i>
+                            <i class="uil uil-pen skills__icon"></i>
 
                             <div>
-                                <h1 class="skills__title">Fullstack </h1>
-                               
+                                <h1 class="skills__title">Backend </h1>
+
                             </div>
 
                             <i class="uil uil-angle-down skills__arrow"></i>
@@ -399,40 +288,313 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                         <div class="skills__list grid">
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name"><img src="/asset/img/lamp.png" class="skills__logo"
-                                            width="25px" alt=""> LAMP Stack</h3>
+                                    <h3 class="skills__name"><img src="asset/img/python.jpg" class="skills__logo"
+                                            width="25px" alt="">Python</h3>
                                     <span class="skills__number">80%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__lamp"></span>
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil-user skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Android</h1>
+
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+
+                        
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="asset/img/python.jpg" class="skills__logo"
+                                            width="25px" alt="">Kotlin</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <!--==========SKILLS 3=============--->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-database skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Database </h1>
+
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="asset/img/my2.jpg" class="skills__logo"
+                                            width="25px" alt="">MYSQL</h3>
+                                    <span class="skills__number">100%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__mysql"></span>
                                 </div>
                             </div>
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name"><img src="/asset/img/2lemp.jpg" class="skills__logo"
-                                            width="20px" alt=""> LEMP Stack</h3>
-                                    <span class="skills__number">80%</span>
+                                    <h3 class="skills__name"><img src="asset/img/sql2.png" class="skills__logo"
+                                            width="25px" alt="">SQL</h3>
+                                    <span class="skills__number">70%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__lemp"></span>
+                                    <span class="skills__percentage skills__sql"></span>
                                 </div>
                             </div>
-                          
 
                         </div>
-                    </div>    
-            
+                    </div>
+                    <!--==================SKILL 4=================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-briefcase-alt skills__icon"></i>
 
-            </div>
+                            <div>
+                                <h1 class="skills__title">Devops</h1>
 
-            </div>
-            </div>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="asset/img/ec2.jpg" class="skills__logo"
+                                            width="20px" alt="">AWS EC2</h3>
+                                    <span class="skills__number">100%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__ec2"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="asset/img/rds.png" class="skills__logo"
+                                            width="20px" alt="">AWS RDS</h3>
+                                    <span class="skills__number">80%</span>
+
+
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__rds"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="asset/img/ec2.jpg" class="skills__logo"
+                                            width="20px" alt="">Docker</h3>
+                                    <span class="skills__number">100%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__ec2"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="asset/img/ec2.jpg" class="skills__logo"
+                                            width="20px" alt="">kubernetes</h3>
+                                    <span class="skills__number">100%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__ec2"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <!--==================== SKILL 5 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-swatchbook skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Designer</h1>
+
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name"><img src="asset/img/figma.png" class="skills__logo"
+                                                width="20px" alt=""> Figma</h3>
+                                        <span class="skills__number">100%</span>
+
+
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__blender"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div>
+                            <!--==================== SKILL 6 ====================-->
+                            <div class="skills__content skills__open">
+                                <div class="skills__header">
+                                    <i class="uil uil-apps skills__icon"></i>
+
+                                    <div>
+                                        <h1 class="skills__title">Fullstack </h1>
+
+                                    </div>
+
+                                    <i class="uil uil-angle-down skills__arrow"></i>
+                                </div>
+
+                                <div class="skills__list grid">
+                                    <div class="skills__data">
+                                        <div class="skills__titles">
+                                            <h3 class="skills__name"><img src="asset/img/lamp.png" class="skills__logo"
+                                                    width="25px" alt=""> LAMP Stack</h3>
+                                            <span class="skills__number">80%</span>
+                                        </div>
+                                        <div class="skills__bar">
+                                            <span class="skills__percentage skills__lamp"></span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <div class="skills__titles">
+                                            <h3 class="skills__name"><img src="asset/img/2lemp.jpg" class="skills__logo"
+                                                    width="20px" alt=""> LEMP Stack</h3>
+                                            <span class="skills__number">80%</span>
+                                        </div>
+                                        <div class="skills__bar">
+                                            <span class="skills__percentage skills__lemp"></span>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
 
 
         </section>
 
+ <!--==================== Experience ====================-->
+ <section class="experience-section">
+    <h2 class="section__title">Experience</h2>
+       
+   
+    <div>
+        <p>
+            <div class="experience-item" onclick="toggleContent(this)">
+                <h3 class="experience-title">Junior Android Developer</h3>
+                <p class="experience-duration">current</p>
+                <div class="experience-content">
+                    <p>
+                    
+<li>
+    I am currently immersed in the dynamic and challenging field of mobile application development. My primary focus is on the development of an e-commerce app using Kotlin, where I am leveraging my skills to create a seamless and engaging user experience.
+</li>
+<li>
+    This project involves working with various cutting-edge technologies and frameworks to ensure the app is both functional and visually appealing. I am responsible for implementing key features such as product listings, shopping carts, and secure payment gateways
+</li>
+<li>
+    I am not only enhancing my technical abilities but also gaining valuable insights into the intricacies of the e-commerce industry. This role allows me to collaborate with a talented team of developers and designers, fostering an environment of continuous learning and professional growth.
+</li>
+
+    
+                    </p>
+                </div>
+            </div>
+            
+        </p>
+    </div>
+    <div>
+        <p>
+            <div class="experience-item" onclick="toggleContent(this)">
+                <h3 class="experience-title">Trainee Software Developer</h3>
+                <p class="experience-duration">3 months</p>
+                <div class="experience-content">
+                    <p>
+                        <span style="color: black; font: bold;">
+                            Content Management System (CMS):
+                        </span>
+                       
+<li>
+My internship at Shop The World has allowed me to obtain practical expertise with a range of cutting-edge technologies as a software engineer. 
+</li>
+<li>
+I created five dynamic and responsive pages using Vue.js and Vuetify during my internship, which helped to construct a comprehensive content management system. 
+</li>
+<li>
+One of these pages is a feedback page, where customers' reviews are displayed on the frontend. This feature enhances user engagement and provides valuable insights into customer satisfaction.
+</li>
+<li>
+This project improved my knowledge of contemporary web frameworks and effective state management in addition to honing my frontend development abilities.  
+</li>
+                        <span style="color: black; font: bold;">
+                        E-commerce Site Migration:
+                    </span>
+                    <li>
+                        I was a key player in the transfer of an e-commerce website using Next.js and React.js. In order to ensure optimal speed and security, it was my responsibility to discover and resolve bugs, guarantee flawless functionality, and update the most recent packages.
+                    </li>
+                    <li>
+                        Furthermore, I worked on the card functionality, which displays product price details, whether the product is BAU or BAI, product origin, and product ratings.
+                    </li>
+                    <li>
+                        My involvement in these initiatives has given me a strong technical foundation, the ability to solve problems, and the flexibility to quickly adjust to new difficulties. 
+                    </li>
+                   
+                    </p>
+                </div>
+            </div>
+            
+        </p>
+    </div>
+
+</section>
+
         <!--==================== Certificates ====================-->
-        <section class="certificate section">
+        <!-- <section class="certificate section">
             <h2 class="section__title">My Certificates</h2>
             <span class="section__subtitle">By Programming Hub</span>
             <span class="section__subtitle">Scroll or slide here to see next>>></span>
@@ -440,8 +602,8 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
             <div data-aos="fade-up" class="portfolio__container container swiper-container">
                 <div class="swiper-wrapper">
                     <!--==================== Certificate 1 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="/asset/img/beeja.jpeg" alt="" class="portfolio__img">
+        <!-- <div class="portfolio__content grid swiper-slide">
+                        <img src="asset/img/beeja.jpeg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
                             <p>Fullstack development</p>
@@ -451,9 +613,9 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
-                    </div>
-                    <!--==================== Certificate 2 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
+                    </div> -->
+        <!--==================== Certificate 2 ====================-->
+        <!-- <div class="portfolio__content grid swiper-slide">
                         <img src="/asset/img/ripe.jpeg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
@@ -465,9 +627,9 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                             </a>
                         </div>
                     </div>
-    
+     -->
 
-        <div class="portfolio__content grid swiper-slide">
+        <!-- <div class="portfolio__content grid swiper-slide">
             <img src="/asset/img/css certificate.png" alt="" class="portfolio__img">
 
             <div class="portfolio__data">
@@ -478,9 +640,9 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                     <i class="uil uil-arrow-right button__icon"></i>
                 </a>
             </div>
-        </div>
+        </div> -->
 
-        <div class="portfolio__content grid swiper-slide">
+        <!-- <div class="portfolio__content grid swiper-slide">
             <img src="/asset/img/linux-basics-internship-.png" alt="" class="portfolio__img">
 
             <div class="portfolio__data">
@@ -491,9 +653,9 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                     <i class="uil uil-arrow-right button__icon"></i>
                 </a>
             </div>
-        </div>
+        </div> -->
 
-</section>
+        <!-- </section>  -->
 
         <!--==================== SERVICES ====================-->
         <section class="services section" id="services">
@@ -501,12 +663,12 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
             <span class="section__subtitle">What I Done</span>
 
             <div data-aos="fade-right" class="services__container container grid">
-                
+
 
                 <!--==================== SERVICES 1 ====================-->
-                <div class="services__content">
-                    <div>
-                        <i class="uil uil-arrow services__icon"></i>
+                <div class="services__content js">
+                    <div class="services__item">
+                        <i class="uil uil-arrow services__icon js"></i>
                         <h3 class="services__title">JavaScript <br> Projects</h3>
                     </div>
 
@@ -533,7 +695,7 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                                     <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p>PortFolio using HTML,CSS & JS</p>
                                 </li>
-                                
+
                             </ul>
                         </div>
                     </div>
@@ -559,7 +721,7 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                             <ul class="services__modal-services grid">
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I develop the  user interface.</p>
+                                    <p>I develop the user interface.</p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
@@ -569,48 +731,48 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                                     <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p>I design website using FIgma</p>
                                 </li>
-                            
+
                             </ul>
                         </div>
                     </div>
                 </div>
-            <!--====================SERVICES 3==================-->
-            <div class="services__content">
-                <div>
-                    <i class="uil uil-arrow services__icon"></i>
-                    <h3 class="services__title">Python <br> Projects</h3>
-                </div>
+                <!--====================SERVICES 3==================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-arrow services__icon"></i>
+                        <h3 class="services__title">Python <br> Projects</h3>
+                    </div>
 
-                <span class="button button--flex button--small button--link services__button">
-                    View More
-                    <i class="uil uil-arrow-right button__icon"></i>
-                </span>
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
 
-                <div class="services__modal">
-                    <div class="services__modal-content">
-                        <h4 class="services__modal-title">Python <br> Projects</h4>
-                        <i class="uil uil-times services__modal-close"></i>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Python <br> Projects</h4>
+                            <i class="uil uil-times services__modal-close"></i>
 
-                        <ul class="services__modal-services grid">
-                            <li class="services__modal-service">
-                                <i class="uil uil-check-circle services__modal-icon"></i>
-                                <p>I developed  Face Detection using Python</p>
-                            </li>
-                            <li class="services__modal-service">
-                                <i class="uil uil-check-circle services__modal-icon"></i>
-                                <p>It includes Machine Learning Algorithm</p>
-                            </li>
-                            <li class="services__modal-service">
-                                <i class="uil uil-check-circle services__modal-icon"></i>
-                                <p>Supervised Learning</p>
-                            </li>
-                            
-                        </ul>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I developed Face Detection using Python</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>It includes Machine Learning Algorithm</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Supervised Learning</p>
+                                </li>
+
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!---===================SERVICES 4===========================-->
+                <!---===================SERVICES 4===========================-->
 
                 <div class="services__content">
                     <div>
@@ -641,101 +803,101 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                                     <i class="uil uil-check-circle services__modal-icon"></i>
                                     <p>By using LAMP & LEMP Stack </p>
                                 </li>
-                                
+
                             </ul>
                         </div>
                     </div>
 
-                </div> 
-
-
-        <!--===============================Service 5==============================-->
-        
-        <div class="services__content">
-            <div>
-                <i class="uil uil-apps  services__icon"></i>
-                <h3 class="services__title">Frontend <br> Project</h3>
-            </div>
-
-            <span class="button button--flex button--small button--link services__button">
-                View More
-                <i class="uil uil-arrow-right button__icon"></i>
-            </span>
-
-            <div class="services__modal">
-                <div class="services__modal-content">
-                    <h4 class="services__modal-title">Frontend <br> Project</h4>
-                    <i class="uil uil-times services__modal-close"></i>
-
-                    <ul class="services__modal-services grid">
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>I developed E-Commerce Website</p>
-                        </li>
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Frontend development</p>
-                        </li>
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>By using HTML,CSS and JS </p>
-                        </li>
-                        
-                    </ul>
                 </div>
-            </div>
 
-        </div> 
-        <!--===============================service6===================-->
-        <div class="services__content">
-            <div>
-                <i class="uil uil-mouse-alt services__icon"></i>
-                <h3 class="services__title">Web <br> Project</h3>
-            </div>
 
-            <span class="button button--flex button--small button--link services__button">
-                View More
-                <i class="uil uil-arrow-right button__icon"></i>
-            </span>
+                <!--===============================Service 5==============================-->
 
-            <div class="services__modal">
-                <div class="services__modal-content">
-                    <h4 class="services__modal-title">web <br> Projects</h4>
-                    <i class="uil uil-times services__modal-close"></i>
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-apps  services__icon"></i>
+                        <h3 class="services__title">Frontend <br> Project</h3>
+                    </div>
 
-                    <ul class="services__modal-services grid">
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>I developed Weather Forecast Website</p>
-                        </li>
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>web development</p>
-                        </li>
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>By using HTML,CSS and JS </p>
-                        </li>
-                        
-                    </ul>
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Frontend <br> Project</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I developed E-Commerce Website</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Frontend development</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>By using HTML,CSS and JS </p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
-            </div>
+                <!--===============================service6===================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-mouse-alt services__icon"></i>
+                        <h3 class="services__title">Web <br> Project</h3>
+                    </div>
 
-        </div> 
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">web <br> Projects</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I developed Weather Forecast Website</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>web development</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>By using HTML,CSS and JS </p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
         </section>
 
         <!--==================== PORTFOLIO ====================-->
-        <section class="portfolio section" id="portfolio">
+        <!-- <section class="portfolio section" id="portfolio">
             <h2 class="section__title">Portfolio</h2>
             <span class="section__subtitle">Most recent work</span>
 
             <div data-aos="fade-right" class="portfolio__container container swiper-container">
                 <div class="swiper-wrapper">
                     <!--==================== PORTFOLIO 1 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="/asset/img/portfolio1.jpg" alt="" class="portfolio__img">
+        <!-- <div class="portfolio__content grid swiper-slide">
+                        <img src="asset/img/portfolio1.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Ecommerce Website</h3>
@@ -746,10 +908,10 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
-                    </div>
-                    <!--==================== PORTFOLIO 2 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="/asset/img/portfolio2.jpg" alt="" class="portfolio__img">
+                    </div> -->
+        <!--==================== PORTFOLIO 2 ====================-->
+        <!-- <div class="portfolio__content grid swiper-slide">
+                        <img src="asset/img/portfolio2.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Brand Design</h3>
@@ -760,10 +922,10 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
-                    </div>
-                    <!--==================== PORTFOLIO 3 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="/asset/img/portfolio3.jpg" alt="" class="portfolio__img">
+                    </div> -->
+        <!--==================== PORTFOLIO 3 ====================-->
+        <!-- <div class="portfolio__content grid swiper-slide">
+                        <img src="asset/img/portfolio3.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Online Store</h3>
@@ -774,21 +936,21 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
-                    </div>
-                </div>
+                    </div> -->
+        </div>
 
 
-                <!-- Add Arrows -->
-                <div class="swiper-button-next">
+        <!-- Add Arrows -->
+        <!-- <div class="swiper-button-next">
                     <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                </div>
-                <div class="swiper-button-prev">
+                </div> -->
+        <!-- <div class="swiper-button-prev">
                     <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                </div>
+                </div> -->
 
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
-            </div>
+        <!-- Add Pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+        </div>
         </section>
         <!--==================== CONTACT ME ====================-->
         <section class="contact section" id="contact">
@@ -821,8 +983,7 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                     </div>
                 </div>
 
-                <form action=" https://formspree.io/f/mayzldvl" method="POST"
-                    class="contact__form grid" name="hari">
+                <form action=" https://formspree.io/f/mayzldvl" method="POST" class="contact__form grid" name="hari">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="" class="contact__label">Name</label>
@@ -839,7 +1000,8 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                     </div>
                     <div class="contact__content">
                         <label for="" class="contact__label">Message</label>
-                        <textarea type="message" id="" cols="0" rows="7" class="contact__input" name="message"></textarea>
+                        <textarea type="message" id="" cols="0" rows="7" class="contact__input"
+                            name="message"></textarea>
                     </div>
 
                     <div>
@@ -858,7 +1020,7 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
     <footer class="footer">
         <div class="footer__bg">
             <div class="footer__container container grid">
-               
+
 
                 <ul class="footer__links">
                     <li>
@@ -868,13 +1030,12 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                         <a href="#portfolio" class="footer__link">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#contact" class="footer__link">Contactme</a>
+                        <a href="#contact" class="footer__link">Contact me</a>
                     </li>
                 </ul>
 
                 <div class="footer__socials">
-                    <a href="https://www.instagram.com/harikrishna_baskaran_/"
-                        target="_blank" class="footer__social">
+                    <a href="https://www.instagram.com/harikrishna_baskaran_/" target="_blank" class="footer__social">
                         <i class="uil uil-instagram"></i></a>
                     </a>
 
@@ -882,17 +1043,18 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
                         <i class="uil uil-github-alt"></i></a>
                     </a>
 
-                    <a href="https://twitter.com/HariKri73981631?t=Z3LwoxkcTUXQ3tOLZNNitw&s=09" target="_blank" class="footer__social">
+                    <a href="https://twitter.com/HariKri73981631?t=Z3LwoxkcTUXQ3tOLZNNitw&s=09" target="_blank"
+                        class="footer__social">
                         <i class="uil uil-twitter-alt"></i></a>
                     </a>
 
                     <a href="https://www.linkedin.com/in/hari-krishna-1a9022211" target="_blank" class="footer__social">
                         <i class="uil uil-linkedin-alt"></i></a>
 
-                  
+
                 </div>
             </div>
-            <p class="footer__copy">&copy; 2023 Mr Hari krishna | All Rights Reserved</p>
+            <p class="footer__copy">&copy; 2024 Mr Hari krishna | All Rights Reserved</p>
         </div>
     </footer>
 
@@ -909,19 +1071,26 @@ I like to learn coding and exploring different kinds of technologies.And I'm int
     <script src="asset/js/main.js"></script>
 
     <!--=================== Animated text ===============-->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
-        var typed = new Typed(".auto-input", {
-            strings: [
-                "a Web Developer",
-                "an OS developer",
-                "a student",
-                "an UI Designer",
-            ],
-            typeSpeed: 100,
-            backSpeed: 100,
-            loop: true,
+        document.addEventListener("DOMContentLoaded", function () {
+
+
+            var typed = new Typed(".auto-input", {
+                strings: [
+                    "a Web Developer",
+                    "an OS developer",
+                    "a student",
+                    "an UI Designer",
+                ],
+                typeSpeed: 100,
+                backSpeed: 100,
+                loop: true,
+            });
         });
+
     </script>
 
     <!--=================== Animate scroll js ===============-->

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "swiper": "^11.1.4",
+    "typed.js": "^2.1.0"
+  }
+}

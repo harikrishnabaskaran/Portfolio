@@ -169,3 +169,7 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+function toggleContent(element) {
+    element.classList.toggle("active");
+}

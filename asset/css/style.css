@@ -473,6 +473,21 @@ JavaScript
 .button--flex {
   display: inline-flex;
   align-items: center;
+  
+}
+.button--flex.contact{
+  background-color: #5779e0;
+  border-radius: 10px;
+  color: #f9f9f9;
+}
+.button--flex.form{
+  /* background-color: #5779e0; */
+  border-radius: 10px;
+  /* color: #f9f9f9; */
+  background-image: linear-gradient(to right, #d9e6f8, #5779e0);
+}
+.button--flex.form:hover {
+  background-image: linear-gradient(to right, #ff0000, #476da8);  /* Adjust gradient on hover */
 }
 
 .button--small {
@@ -654,8 +669,9 @@ JavaScript
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 600px;
+  max-width: 450px;
   margin: 0 auto;
+ 
 }
 
 .experience-item {
@@ -666,6 +682,8 @@ JavaScript
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  color: #fff;
+  
 }
 
 .experience-item:hover {
@@ -676,12 +694,38 @@ JavaScript
   margin: 0;
   font-size: 1.5em;
   color: #333;
+  font-weight: bold;
 }
 
 .experience-duration {
   margin: 5px 0 0;
   font-size: 1em;
   color: #666;
+  font-style: italic;
+  
+
+}
+.experience-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 1.2em; /* Adjust for icon size */
+  color: #ddd;
+}
+
+@media (max-width: 768px) {
+  .experience-section {
+    max-width: 100%; /* Full width on smaller screens */
+  }
+}
+
+/* Alternate background colors */
+.experience-item:nth-child(even) {
+  background-color: #345A9E;
+}
+
+.experience-item:nth-child(odd) {
+  background-color: #5779E0;
 }
 
 /* "Linked" pattern design */

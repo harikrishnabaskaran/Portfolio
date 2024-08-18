@@ -669,7 +669,7 @@ JavaScript
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 450px;
+  max-width: 500px;
   margin: 0 auto;
  
 }
@@ -700,7 +700,7 @@ JavaScript
 .experience-duration {
   margin: 5px 0 0;
   font-size: 1em;
-  color: #666;
+  color: #000000;
   font-style: italic;
   
 
@@ -715,7 +715,7 @@ JavaScript
 
 @media (max-width: 768px) {
   .experience-section {
-    max-width: 100%; /* Full width on smaller screens */
+    max-width: 95%; /* Full width on smaller screens */
   }
 }
 
@@ -1506,3 +1506,8 @@ margin-bottom: 12rem;
   }
 }
 
+/* .spalogo{
+  width: 20vw;
+  height: 20vh;
+align-content: center;
+} */
